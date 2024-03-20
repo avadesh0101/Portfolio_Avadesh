@@ -7,6 +7,8 @@
 	<!-- bootstrap link -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 	<!-- javascript link -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
@@ -16,38 +18,181 @@
 <body>
 
   <!-- navbar starts here -->
-<div>
-   
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Avadesh</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<div class="navigation-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><span class="brand">Avadesh</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home"><span class="navmenu"></span> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </div>
 
+
    <!-- navbar ends here -->
+  
+   <div class ="main-controller">
+   	 
+   	 <section id="home" class="portfolio-sections">
+        <div id="home-info">
+            <span class="info">Hi </span><br/>
+            <span class="info">My name is </span><br>
+            <span class="brand myname">Avadesh</span><br>
+            <span class="info">I am <span class="designation">Full Stack Developer</span></span>
+            <button href="demo.pdf" class="rsmbtn">RESUME</button>
+        </div>
+    </section> 	
+
+      </div>
+   	</section>
+
+   	<div>
+   		
+
+    <section   class ="portfolio-section about-section" id = "about" >
+
+      <div class = "aboutmain">
+      
+       <div class = "myimage">
+       	 <img class = "image" src="https://www.kindpng.com/picc/m/4-42757_full-stack-developers-developer-png-transparent-png.png">
+       </div>
+
+       <div class="carrerobj">
+       	  <h1 class="heading">ABOUT</h1>
+       	  <p class="carrerinfo">
+       	  	Aspiring for the job role of full stack developer at your company which would
+       	  	provide me with ample opportunities to showcase my technical abilities while
+       	  	working on complex projects and tasks assigned by you or your team members.
+       	  </p>
+
+       </div>
+       
+
+      </div>
+
+
+   </section>
+
+
+   	</div>
+
+  <section id="skills" class="portfolio-section">
+        <h1 class="siph">SKILLS</h1>
+        <table class="tbdata" border="2" height="250px" width="90%" cellpadding="10">
+          <tr>
+            <td >Languages
+              <p>Html,Css,Core java, Javascript, Python</p>
+            </td>
+            <td>APIs and Framework
+            <p>Spring, SpringBoot, PostMan, React, Angular</p>
+          </td>
+          </tr>
+          <tr>
+            <td>Tools
+              <p>Vs-code,Eclipse,Intelija-ide</p>
+              </td>
+            <td>Operating System
+             <p>Windows, IOS, Andriod, Linux</p>
+            </td>
+          </tr>
+        </table>
+    </section>
+
+   <section  class ="portfolio-section" id = "contact" >
+
+   	<h1 class="heading">Project</h1>
+
+   	<div class="project-card-container">
+   		
+<div class="card-deck">
+  <div class="card">
+    <img src="https://static.vecteezy.com/system/resources/previews/008/089/663/original/calculator-icons-calculator-icon-design-illustration-calculator-icon-isolated-on-white-background-calculator-icon-simple-sign-free-vector.jpg" alt="">
+    <div class="card-body">
+      <h5 class="card-title">CALCULATOR</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>  
+    </div>
+  </div>
+  <div class="card">
+
+    <img src="https://i.pinimg.com/originals/d9/d2/82/d9d282bfd1842ef06e706a12679e7e49.jpg" class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">WEATHER FORCAST</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://developer.spotify.com/images/guidelines/design/icon4@2x.png" class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">Spotify Clone</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+  </div>
+</div>
+
+   	</div> 
+
+
+   </section>
+
+
+   <section class="portfolio-section" id="contact">
+
+    <h1 class="heading">CONTACT</h1>
+    <div class="main-container">
+        <div class="contact-child">
+            <ul class="contact-info">
+                <li>&#x1F449; <a href="mailto:avadesh20010813@gmail.com">avadesh20010813@gmail.com</a></li>
+                <li>&#x1F449; <a href="tel:+919421753583">9421753583</a></li>
+                <li>&#x1F449; <a href="https://github.com/avadesh0101">My GitHub</a></li>
+                <li>&#x1F449; Pune, MH</li>
+            </ul>
+        </div>
+
+        <div class="contact-child contact-form">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Comment</label>
+                    <textarea class="form-control" id="exampleInputComment" name="comment" required></textarea>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+   
+  
+   
 
 </body>
 </html>

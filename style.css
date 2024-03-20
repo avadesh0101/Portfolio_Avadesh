@@ -1,0 +1,355 @@
+*{
+   padding: 0;
+   margin: 0;
+
+
+}
+
+.portfolio-section{
+  height: 700px;
+  width: 100%;
+  border: 2px solid black;
+  text-align: center;
+  background-color: white;
+
+}
+
+.brand{
+    font-size: 25px;
+    font-family: Arial Black;
+    font-variant: small-caps;
+    color: orangered;
+    background-color: white;
+}
+
+
+
+.nav-item{
+   
+   font-family: Arial Black;
+}
+
+.navigation-bar {
+  position: fixed;
+  top: 0; /* Fixed at the top */
+  width: 100%;
+  background-color: white;
+  backdrop-filter: blur(10px);
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+
+.portfolio-section h1{
+   
+   margin-top: 50px;
+}
+
+html{
+
+  scroll-behavior: smooth;
+}
+
+#home{
+   height: 370px;
+   background-image: url("https://appinventiv.com/wp-content/uploads/2016/11/Best-Productivity-Tools-for-Mobile-App-Developers-1.png");
+   background-repeat: no-repeat;
+   background-size:45%;
+   background-position:90% 20%;
+   border: none;
+}
+
+#home-info{
+    position: absolute;
+    top: 20px;
+    width: 400px;
+    height: 250px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.info{
+    font-weight: bolder;
+    color: lightslategray;
+}
+
+.designation{
+    color: orangered;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.myname{
+    font-size: 35px;
+}
+
+.rsmbtn{
+    height: 40px;
+    width: 100px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size:15px;
+    font-weight: bolder;
+    background-color: orangered;
+    color: white;
+    transition-duration: 1s;
+}
+
+.rsmbtn:hover{
+    background-color: white;
+    color: orangered;
+    border: 3px solid orangered;
+   
+    transform: scale(1.1);
+}
+
+.about-section
+{
+
+  height:500px;
+  width:100%;
+  background-color: whitesmoke;
+
+}
+
+.aboutmain{
+  
+  height:500px;
+  width: 100%;
+  display: flex;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bolder;
+
+}
+
+.aboutmain div{
+    height: 500px;
+    width: 50%;
+}
+
+.image{
+    margin-top: 100px;
+    margin-left: 90px;
+    animation-duration: 4s;
+    animation-name: zoom;
+    animation-iteration-count: 1;
+    height: 350px;
+    
+}
+
+@keyframes zoom
+{
+    100%{
+        transform: scale(1.2);
+        border-radius:60px ;
+    }
+}
+
+.heading{
+    font-family: Arial Black;
+    text-align: center;
+    margin:30px 0px;
+    font-size: 40px;
+    color: darkorange;
+}
+
+.careerobj{
+    padding: 30px;
+}
+
+.careerinfo{
+    text-align: justify;
+    line-height: 40px;
+    text-indent: 100px;
+    word-spacing: 7px;
+    letter-spacing: 1px;
+}
+
+.myimage{
+    height: 50px;
+
+}
+
+
+ /* CSS for styling the skills section */
+.portfolio-sections {
+  margin-top: 50px;
+}
+
+/* Heading style */
+.siph {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+}
+
+/* Table style */
+.tbdata {
+  margin: auto;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.tbdata td, .tbdata th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.tbdata tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tbdata th {
+  background-color: #333;
+  color: white;
+}
+
+/* Paragraph style */
+.tbdata p {
+  margin: 0;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+  .tbdata {
+    width: 100%;
+  }
+}
+
+     
+
+ }
+
+ /* Styling for the project section */
+.portfolio-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Heading style */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Project card container style */
+.project-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Card deck style */
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual card style */
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+
+
+ /* Styling for the contact section */
+.portfolio-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Heading style */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Main container style */
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Contact info style */
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Contact form style */
+.contact-form {
+    max-width: 400px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-check-label {
+    font-weight: normal;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
